@@ -1,2 +1,0 @@
-# ITtalents
-ITtalents training camp

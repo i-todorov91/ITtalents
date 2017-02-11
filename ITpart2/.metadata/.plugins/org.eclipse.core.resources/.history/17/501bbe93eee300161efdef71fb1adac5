@@ -1,0 +1,47 @@
+
+public class Office {
+
+	public static void main(String[] args) {
+		
+		AllWork work = new AllWork();
+		work.addTask(new Task("1", 7));
+		work.addTask(new Task("2", 8));
+		work.addTask(new Task("3", 4));
+		work.addTask(new Task("4", 11));
+		work.addTask(new Task("5", 10));
+		work.addTask(new Task("6", 3));
+		work.addTask(new Task("7", 11));
+		work.addTask(new Task("8", 9));
+		work.addTask(new Task("9", 32));
+		work.addTask(new Task("10", 5));
+		
+		Employee ivan = new Employee("Ivan");
+		Employee gosho = new Employee("Gosho");
+		Employee pesho = new Employee("Pesho");
+		
+		Employee[] workers = { ivan, gosho, pesho };
+		Employee.setAllWork(work);
+		
+		int day = 1;
+		
+		while(true){
+			System.out.println("Day " + day);
+			for (int i = 0; i < workers.length; i++) {
+				workers[i].startWorkingDay();
+			}
+			System.out.println();
+			for (int i = 0; i < workers.length; i++) {
+				workers[i].work();
+				System.out.println();
+			}
+			System.out.println();
+			if (Employee.getAllWork().isAllWorkDone()) {
+				System.out.println("All of the work is done.");
+				System.out.println("It took " + day + " days to finish the work.");
+				break;
+			}
+			day++;
+		}
+		
+	}
+}
