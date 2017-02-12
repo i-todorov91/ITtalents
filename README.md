@@ -1,4 +1,4 @@
 # ITtalents
-ITtalents training camp
-  *PartOne - Programing Basics
-  *PartTwo - OOP and DS
+ITtalents training camp  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*PartOne - Programing Basics  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*PartTwo - OOP and DS  
