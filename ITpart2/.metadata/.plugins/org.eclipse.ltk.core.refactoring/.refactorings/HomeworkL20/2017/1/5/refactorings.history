@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Inline local variable &apos;SecuredNotepad.validatePass().sc&apos; in &apos;SecuredNotepad.validatePass()&apos;&#x0D;&#x0A;- Original project: &apos;HomeworkL20&apos;&#x0D;&#x0A;- Original element: &apos;SecuredNotepad.validatePass().sc&apos;" description="Inline local variable &apos;sc&apos;" id="org.eclipse.jdt.ui.inline.temp" input="/src&lt;{SecuredNotepad.java" selection="412 27" stamp="1485809601278" version="1.0"/>
-</session>
