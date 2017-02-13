@@ -1,7 +1,0 @@
-*/.metadata/*
-*/.recommenders/*
-*/*/.settings/*
-*/*/bin/*
-/*.settings
-/*.classpath
-ITpart2/.metadata/
